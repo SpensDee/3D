@@ -1,0 +1,80 @@
+html,
+body,
+p,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+img,
+video {
+  display: block;
+}
+
+fieldset {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a:focus,
+a:active {
+  outline: transparent;
+}
+
+ol[class],
+ul[class],
+li[class] {
+  list-style: none;
+}
+
+button {
+  outline: transparent;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}

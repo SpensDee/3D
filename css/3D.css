@@ -1,0 +1,18 @@
+.model-3D {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  user-select: none;
+  width: 100%;
+  z-index: 1;
+}
+
+.model-3D__img {
+  width: var(--model-3D-size);
+  object-fit: contain;
+}
